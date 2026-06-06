@@ -17,6 +17,8 @@ import { BookOpen, Home } from "lucide-react";
 import { Layout } from "./components/refine-ui/layout/layout";
 import SubjectsList from "./pages/subjects/list";
 import SubjectsCreate from "./pages/subjects/create";
+import dataProviderFactory from "@refinedev/simple-rest";
+
 
 function App() {
   return (
